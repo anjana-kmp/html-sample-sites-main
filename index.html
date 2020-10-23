@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            /* position: absolute; */
+            /* display: flex;
+        justify-content: center;
+        align-items: center; */
+            height: 100%;
+            width: 100%;
+            position: absolute;
+
+        }
+
+        img {
+            height: 250px;
+            width: 1160px;
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* opacity: .5; */
+            /* margin-top: 85px; */
+            flex: .25;
+            flex-direction: column;
+
+
+
+        }
+
+        .container {
+            background: black;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            border-radius: 50px;
+            overflow: hidden;
+            margin-top: 80px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .childbox1 {
+            background: red;
+            height: 50px;
+            width: 100%;
+            /* margin-top: -36px; */
+        }
+
+        .row {
+            background: darkmagenta;
+            display: flex;
+            flex: 1;
+
+        }
+
+        .leftbox {
+            background: cyan;
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+            height: 100%;
+        }
+
+        .childbox2 {
+            background: blue;
+            display: flex;
+            flex: .25;
+            border: 2px solid black;
+
+
+        }
+
+        .childbox4 {
+            background: chartreuse;
+            display: flex;
+            flex: 4;
+            border: 2px solid black;
+            background-image: url(./images/scenery.jpg);
+        }
+
+        .lorem1 {
+            background: violet;
+            display: flex;
+            flex: 6;
+            border: 2px solid black;
+            padding: 20px;
+            column-count: 2;
+        }
+
+        .rightbox {
+            background: darkred;
+            display: flex;
+            flex: .3;
+            border: 2px solid black;
+        }
+        .title{
+            background: yellow;
+            display: flex;
+            flex: 1;
+            height: 25%;
+            width: inherit;
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <img src="./images/simple.png" alt="">
+    <div class="container">
+
+        <div class="childbox1">
+            <p><b>1</b></p>
+
+        </div>
+        <div class="row">
+            <div class="leftbox">
+                <div class="childbox2">
+                    <p><b>2</b></p>
+
+                </div>
+                <div class="childbox4">
+                    <p><b>4</b></p>
+                    <img src="./images/scenery.jpg" alt="">
+
+
+                </div>
+                <div class="lorem1">
+                    <p><b>5</b></p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur rerum, iusto aperiam
+                        dolorum veritatis ipsum, voluptas tenetur rem at nostrum dolores sed dicta, perspiciatis
+                        eveniet totam maxime itaque dolore facere?
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur rerum, iusto aperiam
+                        dolorum veritatis ipsum, voluptas tenetur rem at nostrum dolores sed dicta, perspiciatis
+                        eveniet totam maxime itaque dolore facere?
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur rerum, iusto aperiam
+                        dolorum veritatis ipsum, voluptas tenetur rem at nostrum dolores sed dicta, perspiciatis
+                        eveniet totam maxime itaque dolore facere?
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur rerum, iusto aperiam
+                        dolorum veritatis ipsum, voluptas tenetur rem at nostrum dolores sed dicta, perspiciatis
+                        eveniet totam maxime itaque dolore facere?
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur rerum, iusto aperiam
+                        dolorum veritatis ipsum, voluptas tenetur rem at nostrum dolores sed dicta, perspiciatis
+                        eveniet totam maxime itaque dolore facere?
+                    </p> 
+                </div>
+            </div>
+            <div class="rightbox">
+                <div class="title">
+                    <p>Titlebar</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
